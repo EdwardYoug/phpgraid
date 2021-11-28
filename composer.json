@@ -15,7 +15,8 @@
     "autoload": {
         "psr-4": {
             "liw\\": "",
-            "liw2\\test\\": "app"
+            "liw2\\test\\": "app",
+            "liw3\\log\\": "app/log"
 
         }
     }

@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInita050b986d1b664d71435655274c1b5cd
 {
     public static $files = array (
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
     );
 
@@ -16,6 +16,7 @@ class ComposerStaticInita050b986d1b664d71435655274c1b5cd
         'l' => 
         array (
             'liw\\' => 4,
+            'liw3\\log\\' => 9,
             'liw2\\test\\' => 10,
         ),
         'S' => 
@@ -38,6 +39,10 @@ class ComposerStaticInita050b986d1b664d71435655274c1b5cd
         'liw\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
+        ),
+        'liw3\\log\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/log',
         ),
         'liw2\\test\\' => 
         array (

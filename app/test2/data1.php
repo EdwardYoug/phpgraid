@@ -6,6 +6,17 @@ class data1
 {
     public function test2()
     {
-        echo 'hello data1';
+        $data = [
+            '1'=>'1',
+            '2'=>'2',
+            '3'=>'vnezapno'
+        ];
+
+        $c = false;
+        echo 'isset ', isset($c)?'Существует':'Пусто', '<br>';
+        echo 'empty ', empty($c)?'Пусто':'Существует', '<br>';
+
+
+      //  echo http_build_query($data);
     }
 }
