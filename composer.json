@@ -1,0 +1,20 @@
+{
+    "name": "station1/phpgraid",
+    "description": "psr4",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edward",
+            "email": "edvardtarasov@ya.r"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "liw\\": "",
+            "liw2\\test\\": "app"
+
+        }
+    }
+}
