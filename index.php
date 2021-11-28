@@ -12,8 +12,8 @@ dfssdfsdfds
 Разнообразный и богатый опыт                 социально-экономическое развитие играет важную роль в формировании модели развития!
 Задача организации,+7(918) 295-47-87 в     особенности же ';
 
-error_reporting(E_ALL);
-ini_set('display_errors',1);
+//error_reporting(E_ALL);
+//ini_set('display_errors',1);
 
 require __DIR__.'/vendor/autoload.php';
 
@@ -35,6 +35,8 @@ $logData = [
 $log->addLog($logData);
 
 $app->regexp($text);
+
+$app->date();
 
 use DebugBar\StandardDebugBar;
 
