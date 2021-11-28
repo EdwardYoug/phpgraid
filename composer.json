@@ -9,7 +9,9 @@
             "email": "edvardtarasov@ya.r"
         }
     ],
-    "require": {},
+    "require": {
+        "maximebf/debugbar": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "liw\\": "",

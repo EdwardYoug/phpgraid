@@ -6,6 +6,6 @@ class App
 {
     public function hello()
     {
-        var_dump('Hello world');
+        echo 'Hello app';
     }
 }
